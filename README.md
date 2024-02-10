@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# PortfolioPal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+[](https://portfolio-tracker-mocha.vercel.app/#/) iis a feature-rich stock portfolio tracker web app application developed using React, powered by Vite, and fully implemented in TypeScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+-   **ReactJS**: [React](https://reactjs.org/) -
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+-   **Vite**: [Vite](https://vitejs.dev/) -
 
-- Configure the top-level `parserOptions` property like this:
+-   **TypeScript**: [TypeScript](https://www.typescriptlang.org/) -
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+-   **Nivo Chart**: [Nivo](https://nivo.rocks/) -
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+-   **TailwindCSS**: [TailwindCSS](https://tailwindcss.com/) -
+
+-   **Ant.design**: [Ant.design](https://ant.design/) -
+
+-   **Vercel**: [Vercel](https://vercel.com/) - A
+
+## Code Structure
+
+-   `components/`: All custom components.
+-   `constants/`: Constants used throughout the application.
+-   `store/`: Includes React Store data, .
+-   `hooks/`: All reusable React hooks.
+-   `layouts/`: Contains layout components
+-   `lib/`: Main utility files such as `utils.ts` are found here.
+-   `pages/`: Parent pages that are configured in the router.
+-   `types/`: Reusable TypeScript types for the application.

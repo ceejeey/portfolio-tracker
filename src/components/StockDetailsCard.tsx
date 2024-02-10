@@ -12,7 +12,7 @@ const StockDetailsCard: FC<StockDetailsCardProps> = ({ data }) => {
         }
         return (
             <div className="flex justify-between gap-5 items-center">
-                <p className="">{name} </p>
+                <p className="capitalize">{name} </p>
                 <p className="text-sm text-gray-500">{String(value)}</p>
             </div>
         );

@@ -12,7 +12,7 @@ const useHome = () => {
     useEffect(() => {
         if (data === null) {
             const data = spCompanyDetails[0];
-            setData(data['AAPL']);
+            setData(data['META']);
         }
     }, [data]);
 

@@ -13,7 +13,7 @@ interface IUserStoreState {
 }
 
 export const useUserStore = create<IUserStoreState>()((set) => ({
-    isLoggedIn: true,
+    isLoggedIn: false,
     setIsLoggedIn: (isLoggedIn: boolean) => set({ isLoggedIn }),
     user: { userId: undefined, email: undefined },
     setUser: (user: userDetail) => set({ user }),

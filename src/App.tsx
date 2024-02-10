@@ -27,20 +27,27 @@ function WrappedAPP() {
                         // lightSiderBg: '#344afb',
                         siderBg: '#FAF7FD',
                         bodyBg: '#fff',
+                        footerBg: '#fff',
                         // colorBgBase: '#344afb',
                         colorBgContainer: '#344afb',
                         // colorPrimary: '#344afb',
+                    },
+                    DatePicker: {
+                        colorBgContainer: '#ffffff',
+                        colorText: '#000',
                     },
 
                     Slider: {
                         colorBgBase: '#344afb',
                         colorBgContainer: '#344afb',
-                        colorPrimary: '#344afb',
+                        colorPrimary: '#f8f8f8',
                     },
                 },
+
                 token: {
                     // Seed Token
                     colorPrimary: '#344afb',
+                    // colorText: '#fff',
 
                     borderRadius: 2,
 

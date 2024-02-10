@@ -30,6 +30,7 @@ const Routes = () => {
             element: <AuthenticatedLayout />,
             children: [
                 { path: '/', element: <Home /> },
+                { path: ':stock', element: <Home /> },
                 { path: '/Login', element: <Login /> },
                 { path: '*', element: <NotFound /> },
             ],
@@ -38,7 +39,7 @@ const Routes = () => {
             path: '/',
             element: <Layout />,
             children: [
-                { path: '/', element: <Home /> },
+                // { path: '/', element: <Home /> },
                 { path: '/Login', element: <Login /> },
                 { path: '*', element: <NotFound /> },
             ],

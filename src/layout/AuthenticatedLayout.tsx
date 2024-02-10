@@ -1,21 +1,12 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 
-import {
-    UploadOutlined,
-    UserOutlined,
-    VideoCameraOutlined,
-} from '@ant-design/icons';
-import { Layout, Menu, theme } from 'antd';
+import { UserOutlined, DollarCircleFilled } from '@ant-design/icons';
+import { Avatar, Layout, Menu, Popover, theme } from 'antd';
 
 const { Header, Content, Footer, Sider } = Layout;
 
-const items = [
-    UserOutlined,
-    VideoCameraOutlined,
-    UploadOutlined,
-    UserOutlined,
-].map((icon, index) => ({
+const items = [DollarCircleFilled].map((icon, index) => ({
     key: String(index + 1),
     icon: React.createElement(icon, { style: { fontSize: '18px' } }),
     className: 'border-none',
@@ -42,16 +33,12 @@ const AuthenticatedLayout = () => {
     const {
         token: { colorBgContainer, borderRadiusLG },
     } = theme.useToken();
-    console.log(
-        '🚀 ~ AuthenticatedLayout ~ colorBgContainer:',
-        colorBgContainer
-    );
 
     return (
-        <Layout className="h-[100vh]">
+        <Layout className="min-h-[100vh]">
             <Sider
                 width={90}
-                className="  bg- w-20"
+                className=" w-20"
                 breakpoint="lg"
                 collapsedWidth="0"
                 onBreakpoint={(broken) => {
@@ -72,22 +59,31 @@ const AuthenticatedLayout = () => {
                 </div>
             </Sider>
             <Layout>
-                <Header>
-                    <div className="flex justify-end">menu</div>
+                <Header className="py-8">
+                    <div className="flex justify-end">
+                        <Popover
+                            placement="bottom"
+                            title={'text'}
+                            content={'content'}
+                        >
+                            <Avatar size={48} icon={<UserOutlined />} />
+                        </Popover>
+                    </div>
                 </Header>
-                <Content style={{ margin: '24px 16px 0' }}>
-                    <div
+                <Content className="h-full  md:overscroll-none py-10">
+                    {/* <div
                         style={{
-                            padding: 24,
-                            minHeight: 360,
-                            background: colorBgContainer,
+                            // padding: 24,
+                            minHeight: '100vh',
+                            maxHeight: '100%',
+                            // background: colorBgContainer,
                             borderRadius: borderRadiusLG,
                         }}
-                    >
-                        <Outlet />
-                    </div>
+                    > */}
+                    <Outlet />
+                    {/* </div> */}
                 </Content>
-                <Footer className="text-center bg-white">
+                <Footer className="text-center ">
                     Portfolio ©{new Date().getFullYear()} Created by Dubai
                     holdings
                 </Footer>

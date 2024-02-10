@@ -2,7 +2,7 @@ import { spCompanyDetails } from '@/constants/mock';
 import { CompanyDetails } from '@/types';
 
 import { useEffect, useMemo, useState } from 'react';
-import { Params, useParams } from 'react-router-dom';
+import { Params, useNavigate, useParams } from 'react-router-dom';
 
 const useHome = () => {
     const [data, setData] = useState<any | null>(null);
@@ -34,7 +34,13 @@ const useHome = () => {
         }
     }, [stock]);
 
-    return { companyData, data };
+    const navigate = useNavigate();
+
+    const onSelect = (value: string) => {
+        navigate(`/${value}`);
+    };
+
+    return { companyData, data, onSelect };
 };
 
 export default useHome;

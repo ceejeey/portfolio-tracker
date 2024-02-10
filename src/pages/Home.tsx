@@ -6,16 +6,15 @@ import { useState } from 'react';
 import { spCompanyNames } from '@/constants/mock';
 import DatePicKer from '@/components/DatePicker';
 
-import useHome from '@/hooks/useHome';
 import News from '@/components/News';
-import { useNavigate } from 'react-router-dom';
 import StockDetailsCard from '@/components/StockDetailsCard';
+import useHome from '@/hooks/useHome';
 
 const Home = () => {
     const [selectedDate, setSelectedDate] = useState();
     const [options, setOptions] = useState<SelectProps<object>['options']>([]);
 
-    const { data } = useHome();
+    const { data, onSelect } = useHome();
 
     const handleSearch = () => {
         const filteredOptions = spCompanyNames.map((companyName) => ({
@@ -33,11 +32,6 @@ const Home = () => {
         }));
 
         setOptions(filteredOptions);
-    };
-    const navigate = useNavigate();
-
-    const onSelect = (value: string) => {
-        navigate(`/${value}`);
     };
 
     const items: TabsProps['items'] = [

@@ -16,7 +16,6 @@ const Home = () => {
     const [options, setOptions] = useState<SelectProps<object>['options']>([]);
 
     const { data } = useHome();
-    console.log('🚀 ~ Home ~ data:', data);
 
     const handleSearch = () => {
         const filteredOptions = spCompanyNames.map((companyName) => ({
@@ -59,7 +58,7 @@ const Home = () => {
     }
     return (
         <div className="flex flex-1 flex-col h-full px-10 justify-between bg-[#fff]">
-            <Flex vertical className="pb-5 md:pl-5">
+            <Flex vertical className="pb-5 md:pl-10">
                 <div className=" flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-end">
                     <AutoComplete
                         popupMatchSelectWidth={252}

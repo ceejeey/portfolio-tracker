@@ -39,18 +39,6 @@ export const spCompanyNames = [
     { name: 'TESLA', value: 'TSLA' },
 ];
 
-export const mockAppleDetails = {
-    country: 'US',
-    exchange: 'NASDAQ/NMS (GLOBAL MARKET)',
-    ipo: '1980-12-12',
-    marketCapitalization: 1415993,
-    name: 'Apple Inc',
-    shareOutstanding: 4375.47998046875,
-    weburl: 'https://www.apple.com/',
-
-    Industry: 'Technology',
-};
-
 export const spCompanyDetails: SPCompanyDetails[] = [
     {
         META: {
@@ -855,7 +843,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
             stockData: [
                 {
                     Date: '02/07/2024',
-                    Price: 189.31,
+                    Price: 589.31,
                     Open: 190.55,
                     High: 191,
                     Low: 188.62,
@@ -865,7 +853,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
 
                 {
                     Date: '02/06/2024',
-                    Price: 189.26,
+                    Price: 581.26,
                     Open: 186.84,
                     High: 189.27,
                     Low: 186.84,
@@ -874,7 +862,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '02/05/2024',
-                    Price: 187.68,
+                    Price: 581.68,
                     Open: 188.15,
                     High: 189.25,
                     Low: 185.84,
@@ -883,7 +871,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '02/02/2024',
-                    Price: 185.85,
+                    Price: 582.85,
                     Open: 179.86,
                     High: 187.33,
                     Low: 179.25,
@@ -892,7 +880,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '02/01/2024',
-                    Price: 186.86,
+                    Price: 581.86,
                     Open: 183.99,
                     High: 186.95,
                     Low: 183.82,
@@ -901,7 +889,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/31/2024',
-                    Price: 184.4,
+                    Price: 584.4,
                     Open: 187.04,
                     High: 187.1,
                     Low: 184.35,
@@ -910,7 +898,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/30/2024',
-                    Price: 188.04,
+                    Price: 583.04,
                     Open: 190.94,
                     High: 191.8,
                     Low: 187.47,
@@ -919,7 +907,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/29/2024',
-                    Price: 191.73,
+                    Price: 591.73,
                     Open: 192.01,
                     High: 192.2,
                     Low: 189.58,
@@ -928,7 +916,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/26/2024',
-                    Price: 192.42,
+                    Price: 592.42,
                     Open: 194.27,
                     High: 194.76,
                     Low: 191.94,
@@ -937,7 +925,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/25/2024',
-                    Price: 194.17,
+                    Price: 594.1,
                     Open: 195.22,
                     High: 196.27,
                     Low: 193.11,
@@ -946,7 +934,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/24/2024',
-                    Price: 194.5,
+                    Price: 594.5,
                     Open: 195.42,
                     High: 196.38,
                     Low: 194.34,
@@ -955,7 +943,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/23/2024',
-                    Price: 195.18,
+                    Price: 595.18,
                     Open: 195.02,
                     High: 195.75,
                     Low: 193.83,
@@ -964,7 +952,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/22/2024',
-                    Price: 193.89,
+                    Price: 591.89,
                     Open: 192.3,
                     High: 195.33,
                     Low: 192.26,
@@ -973,7 +961,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/19/2024',
-                    Price: 191.56,
+                    Price: 590.56,
                     Open: 189.33,
                     High: 191.95,
                     Low: 188.82,
@@ -982,7 +970,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/18/2024',
-                    Price: 188.63,
+                    Price: 581.63,
                     Open: 186.09,
                     High: 189.14,
                     Low: 185.83,
@@ -991,7 +979,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/17/2024',
-                    Price: 182.68,
+                    Price: 581.68,
                     Open: 181.27,
                     High: 182.93,
                     Low: 180.3,
@@ -1000,7 +988,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/16/2024',
-                    Price: 183.63,
+                    Price: 583.63,
                     Open: 182.16,
                     High: 184.26,
                     Low: 180.93,
@@ -1009,7 +997,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/12/2024',
-                    Price: 185.92,
+                    Price: 585.92,
                     Open: 186.06,
                     High: 186.74,
                     Low: 185.19,
@@ -1018,7 +1006,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/11/2024',
-                    Price: 185.59,
+                    Price: 585.59,
                     Open: 186.54,
                     High: 187.05,
                     Low: 183.62,
@@ -1027,7 +1015,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/10/2024',
-                    Price: 186.19,
+                    Price: 586.19,
                     Open: 184.35,
                     High: 186.4,
                     Low: 183.92,
@@ -1036,7 +1024,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/09/2024',
-                    Price: 185.14,
+                    Price: 585.14,
                     Open: 183.92,
                     High: 185.15,
                     Low: 182.73,
@@ -1045,7 +1033,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/08/2024',
-                    Price: 185.56,
+                    Price: 585.56,
                     Open: 182.09,
                     High: 185.6,
                     Low: 181.5,
@@ -1054,7 +1042,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/07/2024',
-                    Price: 183.63,
+                    Price: 583.63,
                     Open: 182.16,
                     High: 184.26,
                     Low: 180.93,
@@ -1063,7 +1051,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/06/2024',
-                    Price: 185.92,
+                    Price: 585.92,
                     Open: 186.06,
                     High: 186.74,
                     Low: 185.19,
@@ -1109,7 +1097,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
             stockData: [
                 {
                     Date: '02/07/2024',
-                    Price: 189.31,
+                    Price: 481.31,
                     Open: 190.55,
                     High: 191,
                     Low: 188.62,
@@ -1119,7 +1107,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
 
                 {
                     Date: '02/06/2024',
-                    Price: 189.26,
+                    Price: 481.26,
                     Open: 186.84,
                     High: 189.27,
                     Low: 186.84,
@@ -1128,7 +1116,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '02/05/2024',
-                    Price: 187.68,
+                    Price: 481.68,
                     Open: 188.15,
                     High: 189.25,
                     Low: 185.84,
@@ -1137,7 +1125,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '02/02/2024',
-                    Price: 185.85,
+                    Price: 485.85,
                     Open: 179.86,
                     High: 187.33,
                     Low: 179.25,
@@ -1146,7 +1134,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '02/01/2024',
-                    Price: 186.86,
+                    Price: 486.86,
                     Open: 183.99,
                     High: 186.95,
                     Low: 183.82,
@@ -1155,7 +1143,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/31/2024',
-                    Price: 184.4,
+                    Price: 487.4,
                     Open: 187.04,
                     High: 187.1,
                     Low: 184.35,
@@ -1164,7 +1152,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/30/2024',
-                    Price: 188.04,
+                    Price: 488.04,
                     Open: 190.94,
                     High: 191.8,
                     Low: 187.47,
@@ -1173,7 +1161,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/29/2024',
-                    Price: 191.73,
+                    Price: 490.73,
                     Open: 192.01,
                     High: 192.2,
                     Low: 189.58,
@@ -1182,7 +1170,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/26/2024',
-                    Price: 192.42,
+                    Price: 490.42,
                     Open: 194.27,
                     High: 194.76,
                     Low: 191.94,
@@ -1191,7 +1179,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/25/2024',
-                    Price: 194.17,
+                    Price: 490.17,
                     Open: 195.22,
                     High: 196.27,
                     Low: 193.11,
@@ -1200,7 +1188,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/24/2024',
-                    Price: 194.5,
+                    Price: 490.5,
                     Open: 195.42,
                     High: 196.38,
                     Low: 194.34,
@@ -1209,7 +1197,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/23/2024',
-                    Price: 195.18,
+                    Price: 495.18,
                     Open: 195.02,
                     High: 195.75,
                     Low: 193.83,
@@ -1218,7 +1206,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/22/2024',
-                    Price: 193.89,
+                    Price: 493.89,
                     Open: 192.3,
                     High: 195.33,
                     Low: 192.26,
@@ -1227,7 +1215,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/19/2024',
-                    Price: 191.56,
+                    Price: 491.56,
                     Open: 189.33,
                     High: 191.95,
                     Low: 188.82,
@@ -1236,7 +1224,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/18/2024',
-                    Price: 188.63,
+                    Price: 488.63,
                     Open: 186.09,
                     High: 189.14,
                     Low: 185.83,
@@ -1245,7 +1233,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/17/2024',
-                    Price: 182.68,
+                    Price: 482.68,
                     Open: 181.27,
                     High: 182.93,
                     Low: 180.3,
@@ -1254,7 +1242,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/16/2024',
-                    Price: 183.63,
+                    Price: 483.63,
                     Open: 182.16,
                     High: 184.26,
                     Low: 180.93,
@@ -1263,7 +1251,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/12/2024',
-                    Price: 185.92,
+                    Price: 485.92,
                     Open: 186.06,
                     High: 186.74,
                     Low: 185.19,
@@ -1272,7 +1260,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/11/2024',
-                    Price: 185.59,
+                    Price: 485.59,
                     Open: 186.54,
                     High: 187.05,
                     Low: 183.62,
@@ -1281,7 +1269,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/10/2024',
-                    Price: 186.19,
+                    Price: 486.19,
                     Open: 184.35,
                     High: 186.4,
                     Low: 183.92,
@@ -1290,7 +1278,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/09/2024',
-                    Price: 185.14,
+                    Price: 485.14,
                     Open: 183.92,
                     High: 185.15,
                     Low: 182.73,
@@ -1299,7 +1287,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/08/2024',
-                    Price: 185.56,
+                    Price: 485.56,
                     Open: 182.09,
                     High: 185.6,
                     Low: 181.5,
@@ -1308,7 +1296,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/07/2024',
-                    Price: 183.63,
+                    Price: 483.63,
                     Open: 182.16,
                     High: 184.26,
                     Low: 180.93,
@@ -1317,7 +1305,7 @@ export const spCompanyDetails: SPCompanyDetails[] = [
                 },
                 {
                     Date: '01/06/2024',
-                    Price: 185.92,
+                    Price: 485.92,
                     Open: 186.06,
                     High: 186.74,
                     Low: 185.19,
@@ -1328,223 +1316,3 @@ export const spCompanyDetails: SPCompanyDetails[] = [
         },
     },
 ];
-
-// export const mockHistoricalDataApple = [
-//     {
-//         Date: '02/07/2024',
-//         Price: 489.31,
-//         Open: 190.55,
-//         High: 191,
-//         Low: 488.62,
-//         Vol: '34.31M',
-//         Change: '0.03%',
-//     },
-
-//     {
-//         Date: '02/06/2024',
-//         Price: 489.26,
-//         Open: 486.84,
-//         High: 489.27,
-//         Low: 486.84,
-//         Vol: '36.58M',
-//         Change: '0.84%',
-//     },
-//     {
-//         Date: '02/05/2024',
-//         Price: 487.68,
-//         Open: 488.15,
-//         High: 489.25,
-//         Low: 485.84,
-//         Vol: '68.93M',
-//         Change: '0.98%',
-//     },
-//     {
-//         Date: '02/02/2024',
-//         Price: 485.85,
-//         Open: 179.86,
-//         High: 487.33,
-//         Low: 179.25,
-//         Vol: '102.55M',
-//         Change: '-0.54%',
-//     },
-//     {
-//         Date: '02/01/2024',
-//         Price: 486.86,
-//         Open: 483.99,
-//         High: 486.95,
-//         Low: 483.82,
-//         Vol: '53.49M',
-//         Change: '1.33%',
-//     },
-//     {
-//         Date: '01/31/2024',
-//         Price: 484.4,
-//         Open: 487.04,
-//         High: 487.1,
-//         Low: 484.35,
-//         Vol: '54.83M',
-//         Change: '-1.94%',
-//     },
-//     {
-//         Date: '01/30/2024',
-//         Price: 488.04,
-//         Open: 190.94,
-//         High: 191.8,
-//         Low: 487.47,
-//         Vol: '55.27M',
-//         Change: '-1.92%',
-//     },
-//     {
-//         Date: '01/29/2024',
-//         Price: 191.73,
-//         Open: 192.01,
-//         High: 192.2,
-//         Low: 489.58,
-//         Vol: '46.89M',
-//         Change: '-0.36%',
-//     },
-//     {
-//         Date: '01/26/2024',
-//         Price: 192.42,
-//         Open: 194.27,
-//         High: 194.76,
-//         Low: 191.94,
-//         Vol: '44.59M',
-//         Change: '-0.90%',
-//     },
-//     {
-//         Date: '01/25/2024',
-//         Price: 194.17,
-//         Open: 195.22,
-//         High: 196.27,
-//         Low: 193.11,
-//         Vol: '54.53M',
-//         Change: '-0.17%',
-//     },
-//     {
-//         Date: '01/24/2024',
-//         Price: 194.5,
-//         Open: 195.42,
-//         High: 196.38,
-//         Low: 194.34,
-//         Vol: '53.46M',
-//         Change: '-0.35%',
-//     },
-//     {
-//         Date: '01/23/2024',
-//         Price: 195.48,
-//         Open: 195.02,
-//         High: 195.75,
-//         Low: 193.83,
-//         Vol: '42.20M',
-//         Change: '0.67%',
-//     },
-//     {
-//         Date: '01/22/2024',
-//         Price: 193.89,
-//         Open: 192.3,
-//         High: 195.33,
-//         Low: 192.26,
-//         Vol: '60.13M',
-//         Change: '1.22%',
-//     },
-//     {
-//         Date: '01/19/2024',
-//         Price: 191.56,
-//         Open: 489.33,
-//         High: 191.95,
-//         Low: 488.82,
-//         Vol: '68.90M',
-//         Change: '1.55%',
-//     },
-//     {
-//         Date: '01/48/2024',
-//         Price: 488.63,
-//         Open: 486.09,
-//         High: 489.14,
-//         Low: 485.83,
-//         Vol: '77.40M',
-//         Change: '3.26%',
-//     },
-//     {
-//         Date: '01/17/2024',
-//         Price: 482.68,
-//         Open: 481.27,
-//         High: 482.93,
-//         Low: 480.3,
-//         Vol: '47.19M',
-//         Change: '-0.52%',
-//     },
-//     {
-//         Date: '01/16/2024',
-//         Price: 483.63,
-//         Open: 482.16,
-//         High: 484.26,
-//         Low: 480.93,
-//         Vol: '65.44M',
-//         Change: '-1.23%',
-//     },
-//     {
-//         Date: '01/12/2024',
-//         Price: 485.92,
-//         Open: 486.06,
-//         High: 486.74,
-//         Low: 485.19,
-//         Vol: '40.48M',
-//         Change: '0.48%',
-//     },
-//     {
-//         Date: '01/11/2024',
-//         Price: 485.59,
-//         Open: 486.54,
-//         High: 487.05,
-//         Low: 483.62,
-//         Vol: '49.13M',
-//         Change: '-0.32%',
-//     },
-//     {
-//         Date: '01/10/2024',
-//         Price: 486.19,
-//         Open: 484.35,
-//         High: 486.4,
-//         Low: 483.92,
-//         Vol: '45.90M',
-//         Change: '0.57%',
-//     },
-//     {
-//         Date: '01/09/2024',
-//         Price: 485.14,
-//         Open: 483.92,
-//         High: 485.15,
-//         Low: 482.73,
-//         Vol: '42.84M',
-//         Change: '-0.23%',
-//     },
-//     {
-//         Date: '01/08/2024',
-//         Price: 485.56,
-//         Open: 482.09,
-//         High: 485.6,
-//         Low: 481.5,
-//         Vol: '59.14M',
-//         Change: '2.42%',
-//     },
-//     {
-//         Date: '01/07/2024',
-//         Price: 483.63,
-//         Open: 482.16,
-//         High: 484.26,
-//         Low: 480.93,
-//         Vol: '65.44M',
-//         Change: '-1.23%',
-//     },
-//     {
-//         Date: '01/06/2024',
-//         Price: 485.92,
-//         Open: 486.06,
-//         High: 486.74,
-//         Low: 485.19,
-//         Vol: '40.48M',
-//         Change: '0.48%',
-//     },
-// ];

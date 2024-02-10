@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 
 import { UserOutlined, DollarCircleFilled } from '@ant-design/icons';
 import { Avatar, Layout, Menu, Popover } from 'antd';
+import { useUserStore } from '@/store/useUserStore';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -13,6 +14,7 @@ const items = [DollarCircleFilled].map((icon, index) => ({
 }));
 
 const AuthenticatedLayout = () => {
+    const { setIsLoggedIn } = useUserStore();
     return (
         <Layout className="min-h-[100vh]">
             <Sider
@@ -42,8 +44,12 @@ const AuthenticatedLayout = () => {
                     <div className="flex justify-end">
                         <Popover
                             placement="bottom"
-                            title={'text'}
-                            content={'content'}
+                            content=<button
+                                onClick={() => setIsLoggedIn(false)}
+                                className="outline-none p-4 px-12 bg-primary text-white border-none rounded-lg"
+                            >
+                                Log Out
+                            </button>
                         >
                             <Avatar size={48} icon={<UserOutlined />} />
                         </Popover>

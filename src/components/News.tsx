@@ -11,7 +11,7 @@ const News: FC<NewsProps> = ({ data }) => {
             {data?.map((news: NewsItem, index) => {
                 return (
                     <div
-                        className="pb-2  border-b border-t-0 border-l-0 border-r-0 border-solid my-2 border-gray-300 flex  justify-center items-center "
+                        className="py-2  border-b border-t-0 border-l-0 border-r-0 border-solid my-2 border-gray-300 flex  flex-1 h-full justify-center items-center "
                         key={index}
                     >
                         <img src={news.imageUrl} alt="" className="w-20 h-20" />
@@ -20,7 +20,7 @@ const News: FC<NewsProps> = ({ data }) => {
                             <p className="text-xs my-1 text-primary">
                                 {news.date}
                             </p>
-                            <p>{news.headline}</p>
+                            <p className="text-sm m-0">{news.headline}</p>
                         </div>
                     </div>
                 );

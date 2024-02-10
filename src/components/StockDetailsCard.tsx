@@ -7,6 +7,9 @@ interface StockDetailsCardProps {
 
 const StockDetailsCard: FC<StockDetailsCardProps> = ({ data }) => {
     const renderStockDetails = (name: string, value: string | number) => {
+        if (name === 'price' || name === 'currency' || name === 'change') {
+            return null;
+        }
         return (
             <div className="flex justify-between gap-5 items-center">
                 <p className="">{name} </p>

@@ -58,7 +58,7 @@ const LineChart = (props: { selectedDate: any; data: any }) => {
                 yScale={{
                     type: 'linear',
                     min: 'auto',
-                    max: 200,
+                    max: 'auto',
                     stacked: true,
                     reverse: false,
                 }}

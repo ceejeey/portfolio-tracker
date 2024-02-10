@@ -59,7 +59,7 @@ const Home = () => {
     return (
         <div className="flex flex-1 flex-col h-full px-10 justify-between bg-[#fff]">
             <Flex vertical className="pb-5">
-                <div className=" flex  justify-between items-end">
+                <div className=" flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-end">
                     <AutoComplete
                         popupMatchSelectWidth={252}
                         style={{ width: 300 }}
@@ -70,7 +70,7 @@ const Home = () => {
                     >
                         <Input.Search
                             size="large"
-                            placeholder="input here"
+                            placeholder="Search Company"
                             enterButton
                         />
                     </AutoComplete>
@@ -78,9 +78,9 @@ const Home = () => {
                 </div>
                 <h1 className="pl">Meta Platform Inc</h1>
             </Flex>
-            <div className="flex gap-5 flex-col  md:flex-row md:max-h-[70vh]  ">
+            <div className="flex gap-10 flex-col md:gap-5  md:flex-row md:max-h-[70vh] m-auto ">
                 <Flex vertical>
-                    <div className=" w-[90vw] h-[90vh] flex  m-auto md:w-[60vw] md:h-full md:max-h-fit rounded-xl border-solid border border-gray-200 bg-[#fff] transition-all  hover:scale-105 duration-300">
+                    <div className=" w-[90vw] h-[60vh] flex  m-auto md:w-[60vw] md:h-full md:max-h-fit rounded-xl border-solid border border-gray-200 bg-[#fff] transition-all  hover:scale-105 duration-300">
                         {
                             <LineChart
                                 selectedDate={selectedDate}
@@ -89,8 +89,8 @@ const Home = () => {
                         }
                     </div>
                 </Flex>
-                <Flex vertical className=" flex-1">
-                    <div className="flex p-10 pt-0 flex-col flex-1 min-w-full   md:h-full md:max-h-fit border-solid border border-gray-200 rounded-xl bg-[#fff]  transition-all  hover:scale-105">
+                <Flex vertical className=" flex-1 m-auto ">
+                    <div className="flex p-10 pt-0 flex-col flex-1 min-w-full   md:h-full md:max-h-fit md:min-h-[70vh] md:w-[25vw]  border-solid border border-gray-200 rounded-xl bg-[#fff]  transition-all  hover:scale-105">
                         <Tabs defaultActiveKey="1" items={items} />
                     </div>
                 </Flex>

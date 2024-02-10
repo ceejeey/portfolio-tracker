@@ -1,6 +1,4 @@
-import React from 'react';
-
-const ChartFilter = ({ text, active, onClick }) => {
+const ChartFilter = ({ text, active, onClick }: any) => {
     return (
         <button
             onClick={onClick}

@@ -1,6 +1,7 @@
 import { spCompanyDetails } from '@/constants/mock';
-import { CompanyDetails, StockDetails } from '@/types';
-import { FC, useEffect, useMemo, useState } from 'react';
+import { CompanyDetails } from '@/types';
+
+import { useEffect, useMemo, useState } from 'react';
 import { Params, useParams } from 'react-router-dom';
 
 const useHome = () => {

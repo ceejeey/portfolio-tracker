@@ -1,7 +1,4 @@
 import { HashRouter } from 'react-router-dom';
-import Home from './pages/Home';
-import NotFound from './pages/NotFound';
-import Login from './pages/Login';
 import { ConfigProvider } from 'antd';
 import Routes from '@/components/Login/Routes';
 

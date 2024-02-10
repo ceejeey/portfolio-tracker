@@ -10,7 +10,7 @@ import { RouteObject, useNavigate, useRoutes } from 'react-router-dom';
 const Routes = () => {
     const [currentRouteObj, setCurrentRouteObj] = useState<RouteObject[]>([]);
     const routes = useRoutes(currentRouteObj);
-    const { isLoggedIn, setIsLoggedIn } = useUserStore();
+    const { isLoggedIn } = useUserStore();
 
     const navigate = useNavigate();
 
@@ -39,7 +39,6 @@ const Routes = () => {
             path: '/',
             element: <Layout />,
             children: [
-                // { path: '/', element: <Home /> },
                 { path: '/Login', element: <Login /> },
                 { path: '*', element: <NotFound /> },
             ],

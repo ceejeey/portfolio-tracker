@@ -6,14 +6,6 @@ interface NewsProps {
 }
 
 const News: FC<NewsProps> = ({ data }) => {
-    const renderStockDetails = (name: string, value: string | number) => {
-        return (
-            <div className="flex justify-between gap-5 items-center">
-                <p className="">{name} </p>
-                <p className="text-sm text-gray-500">{String(value)}</p>
-            </div>
-        );
-    };
     return (
         <>
             {data?.map((news: NewsItem, index) => {

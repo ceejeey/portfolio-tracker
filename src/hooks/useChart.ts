@@ -64,7 +64,11 @@ const useChart = ({ data, selectedDate }: IUseChart) => {
 
     //Filter data based on date
     useEffect(() => {
-        const filterDataByDateRange = (data, startDate, endDate) => {
+        const filterDataByDateRange = (
+            data: any[],
+            startDate: string,
+            endDate: string
+        ) => {
             const parsedStartDate = parse(startDate, 'MM/dd/yyyy', new Date());
             const parsedEndDate = parse(endDate, 'MM/dd/yyyy', new Date());
 
@@ -194,11 +198,10 @@ const useChart = ({ data, selectedDate }: IUseChart) => {
     };
 
     const findHighestValue = (data: any[]) => {
-        console.log('🚀 ~ findHighestValue ~ data:', data);
         let highest = { x: null, y: 0 };
         if (data.length) {
             data?.forEach((serie) => {
-                serie.data.forEach((d) => {
+                serie.data.forEach((d: any) => {
                     if (d.y > highest.y) {
                         highest = d;
                     }

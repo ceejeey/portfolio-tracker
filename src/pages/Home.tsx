@@ -3,28 +3,21 @@ import { Flex, Tabs } from 'antd';
 import { AutoComplete, Input } from 'antd';
 import type { SelectProps, TabsProps } from 'antd';
 import { useState } from 'react';
-import { mockAppleDetails, spCompanyNames } from '@/constants/mock';
+import { spCompanyNames } from '@/constants/mock';
 import DatePicKer from '@/components/DatePicker';
 
 import useHome from '@/hooks/useHome';
 import News from '@/components/News';
 import { useNavigate } from 'react-router-dom';
-import { CompanyInfo } from '@/types';
 import StockDetailsCard from '@/components/StockDetailsCard';
-
-interface IStockDetails {
-    name: string;
-    value: string | any;
-}
 
 const Home = () => {
     const [selectedDate, setSelectedDate] = useState();
     const [options, setOptions] = useState<SelectProps<object>['options']>([]);
 
-    const { companyData, data } = useHome();
-    console.log('🚀 ~ Home ~ data:', data);
+    const { data } = useHome();
 
-    const handleSearch = (value: string) => {
+    const handleSearch = () => {
         const filteredOptions = spCompanyNames.map((companyName) => ({
             value: companyName.value,
             label: (

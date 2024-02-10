@@ -16,6 +16,7 @@ const Home = () => {
     const [options, setOptions] = useState<SelectProps<object>['options']>([]);
 
     const { data } = useHome();
+    console.log('🚀 ~ Home ~ data:', data);
 
     const handleSearch = () => {
         const filteredOptions = spCompanyNames.map((companyName) => ({
@@ -58,7 +59,7 @@ const Home = () => {
     }
     return (
         <div className="flex flex-1 flex-col h-full px-10 justify-between bg-[#fff]">
-            <Flex vertical className="pb-5">
+            <Flex vertical className="pb-5 md:pl-5">
                 <div className=" flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-end">
                     <AutoComplete
                         popupMatchSelectWidth={252}
@@ -76,7 +77,7 @@ const Home = () => {
                     </AutoComplete>
                     <DatePicKer setSelectedDate={setSelectedDate} />
                 </div>
-                <h1 className="pl">Meta Platform Inc</h1>
+                <h1 className="py-5">{data?.name}</h1>
             </Flex>
             <div className="flex gap-10 flex-col md:gap-5  md:flex-row md:max-h-[70vh] m-auto ">
                 <Flex vertical>

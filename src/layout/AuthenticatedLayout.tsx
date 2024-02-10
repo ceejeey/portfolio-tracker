@@ -33,7 +33,7 @@ const AuthenticatedLayout = () => {
                     <Menu
                         theme="light"
                         mode="vertical"
-                        defaultSelectedKeys={['4']}
+                        defaultSelectedKeys={['1']}
                         items={items}
                         className="m-auto rounded-xl bg-transparent border-none!important"
                     />

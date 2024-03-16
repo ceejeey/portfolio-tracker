@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[](https://portfolio-tracker-mocha.vercel.app/#/) iis a feature-rich stock portfolio tracker web app application developed using React, powered by Vite, and fully implemented in TypeScript.
+[Portfolio Pal](https://portfolio-tracker-mocha.vercel.app/#/) iis a feature-rich stock portfolio tracker web app application developed using React, powered by Vite, and fully implemented in TypeScript.
 
 ## Technologies Used
 
